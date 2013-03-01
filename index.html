@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Kingdom by justin-c-rounds</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Kingdom</h1>
+          <h2>A two-player kingdom-building and battling card game, played with a standard 52-card deck.</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/justin-c-rounds/Kingdom/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/justin-c-rounds/Kingdom/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/justin-c-rounds/Kingdom" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <p>Initial design by <a href="http://justincrounds.org/">Justin C. Rounds</a> for his <a href="http://www.onegameamonth.com/">One Game A Month</a> February entry.</p>
+
+<h2>Requirements</h2>
+
+<ul>
+<li>A standard 52-card deck of playing cards</li>
+<li>1 six-sided die</li>
+<li>At least 20 tokens (preferably more)</li>
+<li>Two players</li>
+</ul><h2>Setup</h2>
+
+<p>Shuffle the deck. Each player is dealt seven cards, face-down, to form their <em>hand</em>. The remaining cards go face-down in a <em>draw stack</em> within reach of each player. Each player receives ten tokens which form their <em>treasury</em>. Remaining tokens, if any, go into a <em>stockpile</em> within reach of each player.</p>
+
+<h2>Goal</h2>
+
+<p>The first player to build a complete <em>kingdom</em> wins the game. A <em>kingdom</em> is represented by one card from each suit, not counting face cards or aces, and one corresponding face card or ace for each suit, one of each type (one King, one Queen, one Jack, and one Ace).</p>
+
+<h3>Sample Kingdom</h3>
+
+<table>
+<tr>
+<td>A♠</td>
+        <td>K♦</td>
+        <td>J♣</td>
+        <td>Q♥</td>
+    </tr>
+<tr>
+<td>3♠</td>
+        <td>7♦</td>
+        <td>9♣</td>
+        <td>5♥</td>
+    </tr>
+</table><h2>Gameplay</h2>
+
+<h3>Start</h3>
+
+<p>Determine which player goes first, e.g. highest roll of the die. The first round, each player chooses two cards to discard from their hand, face-down, into the <em>discard pile</em>. Then, if they choose to do so, they may begin building their kingdom by placing cards, face-up, in front of them. The first card placed for each suit must <strong>not</strong> be a face-card or ace. For each card thus placed, the player must pay the number of tokens from their <em>treasury</em> equal to the number on the card, e.g. two tokens for a 2♠. These cards are referred to as <em>resource cards</em> because they represent the four different resources in each kingdom: <em>agriculture</em> (♠), <em>commerce</em> (♦), <em>military</em> (♣), and <em>fealty</em> (♥).</p>
+
+<p>Face cards and aces can only be played <strong>after</strong> a card of the same suit has been placed. For example, if the player has a K♣ in their hand, they must place a ♣ card <strong>before</strong> placing the K♣. These cards represent the ruling class of the kingdom and are referred to as <em>ruler cards</em>. <em>Ruler cards</em> do not cost any tokens to place.</p>
+
+<h3>Subsequent Rounds</h3>
+
+<p>After the first round, players alternate turns. At the beginning of the turn, the player draws a card from the top of the <em>draw stack</em>. If, after drawing this card, the player has more than <strong>five</strong> cards in their hand, they must discard card(s) of their choosing, so they retain no more than five cards.</p>
+
+<p>Following the draw, the player rolls the die to determine the number of tokens they receive. The amount received is equal to the number on the die minus one, e.g. the player rolls a six and then takes five tokens from the <em>stockpile</em> and adds them to their <em>treasury</em>.</p>
+
+<p>The player then proceeds to place cards, if desired, as before. Once the player declares they are finished, it becomes the other player's turn. Players take turns until one player completes their kingdom and wins the game.</p>
+
+<p>In summary:</p>
+
+<ol>
+<li>Player begins their turn by drawing a card from the <em>draw stack</em>, discarding as required so they have no more than five cards in their hand.</li>
+<li>Player rolls the die and takes that number of tokens, minus one, from the <em>stockpile</em>.</li>
+<li>Player places cards as desired, paying the face value of each card.</li>
+<li>Player ends their turn.</li>
+</ol><p>If the player draws the last card in the <em>draw stack</em>, the <em>discard pile</em> is shuffled and becomes the new <em>draw stack</em>.</p>
+
+<h3>Placing Rulers</h3>
+
+<p><em>Ruler cards</em> may be placed only if their corresponding resource (i.e. suit) has already been placed. Only one of each type of <em>ruler card</em> may be present in the player's kingdom at any time, e.g. a player cannot place a Q♣ if they already have a Q♠ in their kingdom. <em>Ruler cards</em>, unlike <em>resource cards</em>, do not require spending tokens to be placed. <em>Ruler cards</em> also require that at least one matching <em>resource card</em> be present, otherwise the ruler becomes <em>deposed</em> and is removed to the <em>discard pile</em>. The player needs to place one of each type of <em>ruler card</em> to complete their kingdom and win the game.</p>
+
+<h3>Upgrading</h3>
+
+<p>Once a <em>resource card</em> has been placed, the player may choose to <em>upgrade</em> the resource by paying for and placing a card of higher face value on top of it. This can be done regardless of the presence of a <em>ruler card</em>. The player may continue to upgrade the resource provided they have the cards and tokens to do so. The upgrading card should be placed in an overlapping manner such that all the cards for that resource are visible to both players.</p>
+
+<h3>Trouncing</h3>
+
+<p>A player may choose to use a placed card to <em>trounce</em> one of the other player's cards of the same <em>resource</em>, provided the face value of the trouncing card is higher, e.g. 10♦ versus 8♦. Both the trouncing and trounced cards are removed to the <em>discard pile</em>. If the other player's resource has been upgraded, <strong>only the highest value card of a resource can be trounced</strong>, and only that card shall be removed. If the trounced card is the last card of that player's resource, and a corresponding <em>ruler card</em> is present, the ruler is <em>deposed</em> and removed to the <em>discard pile</em> along with the trounced <em>resource card</em>. Similarly, if the trouncing card is the last of that resource and a <em>ruler card</em> is present, the player must sacrifice the ruler in order to <em>trounce</em> their opponent's card.</p>
+
+<h2>Release Notes</h2>
+
+<h3>2013.02.28</h3>
+
+<p>Initial release for playtesting.</p>
+        </section>
+
+        <footer>
+          Kingdom is maintained by <a href="https://github.com/justin-c-rounds">justin-c-rounds</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
